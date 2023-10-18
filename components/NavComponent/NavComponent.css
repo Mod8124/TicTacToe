@@ -1,0 +1,8 @@
+a {
+    text-decoration: none;
+}
+.menu {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1.4em;
+}

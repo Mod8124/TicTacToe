@@ -1,0 +1,27 @@
+.square {
+    flex: 1;
+    height: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    cursor: pointer;
+}
+
+.square--zero,
+.square--first,
+.square--third,
+.square--forth {
+    border-right: 5px solid rgba(0, 0, 0, 0.685);
+    border-bottom: 5px solid rgba(0, 0, 0, 0.685);
+}
+
+.square--second,
+.square--fifth {
+    border-bottom: 5px solid rgba(0, 0, 0, 0.685);
+}
+
+.square--sixth,
+.square--seventh {
+    border-right: 5px solid rgba(0, 0, 0, 0.685);
+}

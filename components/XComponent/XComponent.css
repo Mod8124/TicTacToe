@@ -1,0 +1,33 @@
+.close {
+    width: 80px;
+    height: 80px;
+    position: relative;
+}
+
+.close:after {
+    content: '';
+    position: absolute;
+    width: 20%;
+    height: 100%;
+    top: 0;
+    left: 2em;
+    background-color: blue;
+    box-shadow:
+        0 0 6px 5px #ede7e7 inset,
+        0 0 10px 4px blue;
+    transform: rotate(-45deg);
+}
+
+.close:before {
+    content: '';
+    position: absolute;
+    right: 2em;
+    top: 0;
+    width: 20%;
+    height: 100%;
+    background-color: blue;
+    box-shadow:
+        0 0 6px 5px #ede7e7 inset,
+        0 0 10px 4px blue;
+    transform: rotate(45deg);
+}

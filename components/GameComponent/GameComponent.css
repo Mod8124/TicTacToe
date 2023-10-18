@@ -1,0 +1,23 @@
+.container__home {
+    width: 100%;
+    max-width: 780px;
+    display: flex;
+}
+
+.container__buttonContainer {
+    display: flex;
+    padding-bottom: 3.4em;
+}
+
+.container__button {
+    color: rgba(0, 0, 0, 0.8);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    font-size: 1.2em;
+    padding: 0.2em 0.2em;
+    text-decoration: none;
+    flex: 100%;
+    text-transform: capitalize;
+}

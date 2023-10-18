@@ -1,0 +1,62 @@
+.squares {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.squares__title {
+    color: rgba(0, 0, 0, 0.685);
+    text-align: center;
+    padding-bottom: 0.8em;
+    font-size: 1.2em;
+}
+
+.squares__container {
+    width: 90%;
+    max-width: 600px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 0 auto;
+    position: relative;
+}
+
+.squares__restart {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 70px;
+    flex-direction: column;
+    row-gap: 0.4em;
+}
+
+.squares__button {
+    background-color: transparent;
+    border: none;
+    font-size: 1.2em;
+    padding: 0.2em 2em;
+    border: 3px solid rgba(0, 0, 0, 0.685);
+    display: flex;
+    column-gap: 0.2em;
+    align-items: center;
+    cursor: pointer;
+}
+
+.squares__button:hover {
+    background-color: rgba(17, 25, 40, 0.1);
+}
+
+.squares__para,
+.squares__score {
+    font-size: 1.1em;
+}
+
+.squares__format {
+    font-weight: bold;
+}
+
+.cardWinner__para {
+    font-size: 1.2em;
+}
+
+.cardWinner__winner {
+    color: hsl(315, 77%, 60%);
+}
